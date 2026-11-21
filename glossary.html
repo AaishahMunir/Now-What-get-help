@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary | Now What?</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    
+    <header class="site-header">
+        <h1>Cybersecurity Glossary</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="get-help.html">Get Help</a>
+            <a href="evidence.html">Evidence</a>
+            <a href="glossary.html" aria-current="page">Glossary</a>
+            <a href="report.html">Report</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class = "hero">
+
+            <h2>Understand the terms</h2>
+            <p>
+               Cybersecurity can sometimes feel confusing, especially when 
+               unfamiliar technical terms are involved. This glossary explains 
+               common online security terms in simple language to help you 
+               understand digital threats and protect yourself online. 
+            </p>
+        </section>
+
+        <h2>Common Cybersecurity Terms</h2> 
+
+        <section>
+            
+
+            <input type="text" id="glossary-search" placeholder="Search a cybersecurity term...">
+            
+
+            <div class="glossary-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="threats">Online Threats</button>
+                <button class="filter-btn" data-filter="security">Account Security</button>
+                <button class="filter-btn" data-filter="privacy">Privacy & Data</button>
+            </div>
+
+            <div id="glossary-list" class="glossary-grid">
+
+
+                <div class="glossary-card" data-category="threats">
+
+                    <h3>Phishing</h3>
+                    <p>
+                       Phishing is a type of online scam where criminals pretend 
+                       to be trusted organisations or people through fake emails,
+                       messages or websites. Their goal is to trick you into 
+                       sharing sensitive information such as passwords or banking 
+                       details.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>Malware</h3>
+                    <p>
+                        Malware is software designed to harm a device, steal 
+                        information or gain unauthorised access. Viruses, spyware 
+                        and ransomware are examples of malware.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>Ransomware</h3>
+                    <p>
+                        Ransomware is a type of malware that locks or encrypts your files and demands money to restore access. Paying does not guarantee that your files will be recovered.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="privacy">
+                    <h3>Data Breach</h3>
+                    <p>
+                        A data breach occurs when private or sensitive information is accessed, exposed or stolen without permission. This may include passwords, personal details or financial information.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>Two-Factor Authentication (2FA)</h3>
+                    <p>
+                        Two-factor authentication adds an extra layer of security to your account. Instead of relying only on a password, it requires another form of verification, such as an authentication app.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>Encryption</h3>
+                    <p>
+                        Encryption converts readable information into a coded format so that unauthorised people cannot easily understand it. A correct key is needed to decrypt and read the information.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>OTP (One-Time Password)</h3>
+                    <p>
+                        An OTP is a temporary verification code used to confirm someone's identity. It is usually valid for a short time or a single use. Never share your OTP with someone who contacts you unexpectedly.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>Social Engineering</h3>
+                    <p>
+                        Social engineering involves manipulating people into revealing confidential information or performing actions that compromise their security. Scammers often use fear, urgency or fake identities.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="privacy">
+                    <h3>Identity Theft</h3>
+                    <p>
+                        Identity theft occurs when someone uses another person's personal information without permission, often to impersonate them, access accounts or commit fraud.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="privacy">
+                    <h3>Digital Footprint</h3>
+                    <p>
+                        A digital footprint is the trail of information you leave behind when using the internet. It can include social media posts, comments, searches and information shared on websites.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>Spoofing</h3>
+                    <p>
+                        Spoofing is when someone disguises their identity to appear as a trusted person, organisation, email address or website. It is commonly used in scams and phishing attacks.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>Firewall</h3>
+                    <p>
+                        A firewall is a security system that monitors incoming and outgoing network traffic. It helps block unauthorised connections while allowing permitted communication.
+                    </p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>Smishing</h3>
+                    <p>A type of phishing attack that uses SMS text messages to trick people into sharing information or clicking suspicious links.</p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>Vishing</h3>
+                    <p>A scam in which someone uses a phone call or voice message to trick a person into revealing private information.</p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>Spyware</h3>
+                    <p>Software that secretly collects information about a person's device or activities.</p>
+                </div>
+
+                <div class="glossary-card" data-category="threats">
+                    <h3>SIM Swapping</h3>
+                    <p>A type of fraud where someone fraudulently transfers a person's mobile number to another SIM card to receive their calls or messages.</p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>Password Manager</h3>
+                    <p>A tool that securely stores and helps manage passwords for different accounts.</p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>Account Recovery</h3>
+                    <p>The official process used to regain access to an account when you cannot sign in.</p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>Backup</h3>
+                    <p>A separate copy of important files or information that can help restore data if the original is lost.</p>
+                </div>
+
+                <div class="glossary-card" data-category="security">
+                    <h3>HTTPS</h3>
+                    <p>A secure communication protocol that encrypts information exchanged between a browser and a website. It does not automatically mean a website is trustworthy.</p>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer class = "site-footer">
+        <div class = "footer-content">
+            <div class="footer-about">
+                <h2>Now What?</h2>
+                <p>A step-by-step guide for when you get
+                hacked or scammed.</p>
+            </div>
+            <div class = "footer-link">
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="get-help.html">Get Help</a>
+                <a href="evidence.html">Evidence</a>
+                <a href="glossary.html">Glossary</a>
+                <a href="report.html">Report</a>
+            </div>
+        </div>
+
+        <div class = "footer-bottom">
+            <p>Educational guidance only. Not an official
+            government authority.</p>
+            <p>© 2026 Now What? All rights reserved</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

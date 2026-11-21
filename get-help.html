@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Help | Now What?</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class = "site-header">
+        <h1>Let's work through this.</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="get-help.html" aria-current="page">Get Help</a>
+            <a href="evidence.html">Evidence</a>
+            <a href="glossary.html">Glossary</a>
+            <a href="report.html">Report</a>
+        </nav> 
+    </header>
+    <main>
+        
+<section id="no-situation">
+    <h2>Let's find the right help for you.</h2>
+    <p>Choose a situation from the Home page to receive step-by-step guidance.</p>
+    <a href="index.html">Choose a situation</a>
+</section>
+
+<section id="guidance-section" hidden>
+    <h2 id="situation-title"></h2>
+    <p id="situation-description"></p>
+
+    <a href="index.html">Choose a different situation</a>
+
+    <div id="questions-section">
+        <h3>A few questions first</h3>
+        <p>Your answers will help us show you the most relevant steps.</p>
+
+        <div id="question-container"></div>
+
+        <button id="show-guidance" type="button">
+            Show my steps
+        </button>
+    </div>
+
+    <div id="guidance-results" hidden>
+        <h3>What should I do now?</h3>
+
+        <div class="progress-container">
+            <p id="progress-text">0 steps completed</p>
+            <div class="progress-track">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+
+        <div id="guidance-steps"></div>
+
+        <p>Need more help?</p>
+
+        <a href="evidence.html">Learn what evidence to save</a>
+        <a href="report.html">Find out where to report it</a>
+
+    </div>
+</section>
+
+
+    
+    </main>
+
+    <footer class = "site-footer">
+        <div class = "footer-content">
+            <div class="footer-about">
+                <h2>Now What?</h2>
+                <p>A step-by-step guide for when you get
+                hacked or scammed.</p>
+            </div>
+            <div class = "footer-link">
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="get-help.html">Get Help</a>
+                <a href="evidence.html">Evidence</a>
+                <a href="glossary.html">Glossary</a>
+                <a href="report.html">Report</a>
+            </div>
+        </div>
+
+        <div class = "footer-bottom">
+            <p>Educational guidance only. Not an official
+            government authority.</p>
+            <p>© 2026 Now What? All rights reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

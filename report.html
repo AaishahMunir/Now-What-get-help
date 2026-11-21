@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Cybercrime | Now What?</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header  class = "site-header">
+
+        <h1>Report Cybercrime</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="get-help.html">Get Help</a>
+            <a href="evidence.html">Evidence</a>
+            <a href="glossary.html">Glossary</a>
+            <a href="report.html" aria-current="page">Report</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class = "hero">
+            <h2>You don't have to deal with this alone</h2>
+            <p>
+                If you've experienced cybercrime, there are official
+                channels where you can seek help and report the incident.
+            </p>
+        </section>
+
+      
+        <section>
+            <h2>Where can you report cybercrime?</h2>
+            <p>In Pakistan, you can use these official channels to report cybercrime.</p>
+
+            <p>
+                If you are in immediate physical danger, move to a safer place
+                and contact local emergency services or a trusted person.
+                In Pakistan, you can call Police Emergency Helpline 15.
+            </p>
+
+        <div class = "report-grid">  
+
+            <div class="evidence-card">
+                <h3>1. NCCIA Online Complaint Portal</h3>
+                <p>Submit your cybercrime complaint through the official online portal.</p>
+                <a href="https://complaint.nccia.gov.pk/" target="_blank" rel="noopener noreferrer">
+                    Visit Complaint Portal
+                </a>
+            </div>
+
+            <div class="evidence-card">
+                <h3>2. NCCIA Helpline</h3>
+                <p>Call 1799 for assistance with cybercrime-related complaints.</p>
+                <p>Never share your passwords, OTPs or banking PINs over the phone.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>3. Visit an NCCIA Reporting Centre</h3>
+                <p>Find an official NCCIA office if you need in-person assistance.</p>
+                <a href="https://nccia.gov.pk/contact.html" target="_blank" rel="noopener noreferrer">
+                    Find a Reporting Centre
+                </a>
+            </div>
+        </div>
+        </section>
+    
+
+        <section>
+            <h2>Before submitting a complaint</h2>
+            <p>Preparing a few details can help you explain what happened clearly.</p>
+
+            <div class="evidence-card">
+                <h3>1. Save relevant screenshots</h3>
+                <p>Keep screenshots of suspicious messages, conversations, emails, profiles and threats. Include dates and usernames whenever possible.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>2. Collect account information</h3>
+                <p>Note down relevant usernames, profile links, email addresses and phone numbers connected to the incident.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>3. Keep transaction records</h3>
+                <p>If money was involved, save payment receipts, transaction IDs, dates, amounts and relevant bank or wallet details.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>4. Write down what happened</h3>
+                <p>Prepare a short timeline explaining what happened, when it happened and how you discovered the incident.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>5. Secure your accounts</h3>
+                <p>Change compromised passwords, enable two-factor authentication and contact your bank if financial information was exposed.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>6. Keep your information private</h3>
+                <p>Never share passwords, OTPs or private evidence publicly. If you are under 18, involve a trusted adult when seeking help or making a formal complaint.</p>
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>What happens after reporting?</h2>
+            <p>After submitting a complaint, the relevant authority may take the following steps:</p>
+
+            <div class="evidence-card">
+                <h3>1. Complaint review</h3>
+                <p>The authorities review the information you submitted to understand the nature of the incident.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>2. Verification</h3>
+                <p>You may be contacted to provide additional information, documents or verification in person.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>3. Further investigation</h3>
+                <p>If the complaint falls within their authority, it may be assessed for further investigation.</p>
+            </div>
+
+            <div class="evidence-card">
+                <h3>4. Follow-up</h3>
+                <p>Keep your complaint reference number and check for updates through the official reporting channel.</p>
+            </div>
+        </section>
+
+        <section class="feedback-section">
+    <h2>Share Your Feedback</h2>
+    <p>
+        Help us improve this website. Tell us what was useful
+        or what we could make better.
+    </p>
+
+    <form id="feedback-form" novalidate>
+
+        <div class="form-group">
+            <label for="feedback-name">Your Name</label>
+            <input
+                type="text"
+                id="feedback-name"
+                placeholder="Enter your name"
+                required
+            >
+            <small class="form-error" id="name-error"></small>
+        </div>
+
+        <div class="form-group">
+            <label for="feedback-email">Email Address</label>
+            <input
+                type="email"
+                id="feedback-email"
+                placeholder="Enter your email"
+                required
+            >
+            <small class="form-error" id="email-error"></small>
+        </div>
+
+        <div class="form-group">
+            <label for="feedback-message">Your Message</label>
+            <textarea
+                id="feedback-message"
+                placeholder="Write your feedback here..."
+                minlength="10"
+                required
+            ></textarea>
+            <small class="form-error" id="message-error"></small>
+        </div>
+
+        <p id="feedback-error" class="form-error" role="alert" hidden></p>
+        <button type="submit">Submit Feedback</button>
+
+    </form>
+
+    <p id="feedback-success" hidden>
+        Thank you for taking the time to share your feedback.
+        This demonstration form does not send or store your response.
+    </p>
+</section>
+        <section class = "disclaimer">
+            <p>
+                Disclaimer: Now What? is an educational website and is
+                not an official government authority. The information
+                provided is for general guidance only. Always use
+                verified official channels when submitting complaints.
+            </p>
+        </section>
+    </main>
+    
+    <footer class = "site-footer">
+        <div class = "footer-content">
+            <div class="footer-about">
+                <h2>Now What?</h2>
+                <p>A step-by-step guide for when you get
+                hacked or scammed.</p>
+            </div>
+            <div class = "footer-link">
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="get-help.html">Get Help</a>
+                <a href="evidence.html">Evidence</a>
+                <a href="glossary.html">Glossary</a>
+                <a href="report.html">Report</a>
+            </div>
+        </div>
+
+        <div class = "footer-bottom">
+            <p>Educational guidance only. Not an official
+            government authority.</p>
+            <p>© 2026 Now What? All rights reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
